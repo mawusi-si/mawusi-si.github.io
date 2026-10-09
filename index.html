@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mawusi Foliba | Cybersecurity Portfolio</title>
+  <meta name="description" content="Mawusi Foliba: Computer Science and Cybersecurity student, aspiring cybersecurity analyst.">
+  <meta name="theme-color" content="#14181f">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="#top">mawusi<span class="accent">.foliba</span></a>
+      <ul class="nav-links">
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#practice">Practice</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a class="btn btn-solid btn-sm" href="mailto:mawusifoliba@outlook.com">Email me</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="top">
+      <div class="container">
+        <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Cybersecurity · IT · Networking</p>
+        <h1 class="hero-name"><span>Mawusi</span> <span class="accent">Foliba</span></h1>
+        <p class="hero-sub">Aspiring Cybersecurity Analyst. Computer Science &amp; Cybersecurity student building hands-on skills through CTFs and labs.</p>
+        <ul class="hero-links">
+          <li><a href="#projects">View projects</a></li>
+          <li><a href="#contact">Get in touch</a></li>
+        </ul>
+      </div>
+      <span class="hero-watermark" aria-hidden="true">SECURE</span>
+    </section>
+
+    <!-- ========== PROFILE ========== -->
+    <section class="section" id="profile">
+      <div class="container">
+        <p class="label">Profile</p>
+        <div class="profile-grid">
+          <figure class="photo-card">
+            <div class="avatar">
+              <span class="avatar-initials" aria-hidden="true">MF</span>
+              <img src="assets/profile.jpg" alt="Portrait of Mawusi Foliba" width="600" height="600" loading="lazy" onerror="this.remove()">
+            </div>
+            <figcaption><small>Hello, I'm</small><strong>Mawusi</strong></figcaption>
+          </figure>
+
+          <div class="profile-body">
+            <h2>About Me</h2>
+            <p class="about">I'm a Computer Science and Cybersecurity student at West Virginia University with a background in IT support and network monitoring. I've written incident reports, supported access-control policies, and kept business systems running. Now I'm sharpening my security skills through hands-on CTF practice.</p>
+
+            <h3 class="sub">Technical Stack</h3>
+            <ul class="chips">
+              <li><i class="c1"></i>Splunk</li><li><i class="c1"></i>Microsoft Sentinel</li><li><i class="c1"></i>Wireshark</li>
+              <li><i class="c1"></i>Nmap</li><li><i class="c1"></i>Snort</li><li><i class="c2"></i>Linux (Red Hat)</li>
+              <li><i class="c2"></i>Windows</li><li><i class="c2"></i>Azure</li><li><i class="c3"></i>Python</li>
+              <li><i class="c3"></i>Bash</li><li><i class="c3"></i>SQL</li><li><i class="c3"></i>Git</li>
+            </ul>
+
+            <div class="two-col">
+              <div>
+                <h3 class="sub">Education</h3>
+                <p class="item-title">B.S. Computer Science &amp; B.S. Cybersecurity</p>
+                <p class="item-meta">West Virginia University · Expected 2027</p>
+              </div>
+              <div>
+                <h3 class="sub">Experience</h3>
+                <ul class="oneliners">
+                  <li><strong>Data Engineer / Researcher</strong>, Data Driven WV <span class="when">2026–Present</span></li>
+                  <li><strong>Junior Solution Specialist</strong>, RayCom Technologies</li>
+                  <li><strong>IT Intern</strong>, CWSA</li>
+                </ul>
+              </div>
+            </div>
+
+            <h3 class="sub">Certifications</h3>
+            <ul class="certs">
+              <li><span class="issuer">CompTIA · Sep 2026</span><span class="cert-name">Security+</span></li>
+              <li><span class="issuer">Red Hat</span><span class="cert-name">System Administration</span></li>
+              <li><span class="issuer">Google</span><span class="cert-name">Cloud Security</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <p class="label">Projects</p>
+        <h2 class="section-title">Selected Work</h2>
+        <div class="projects">
+          <article class="card">
+            <p class="tag-line">Multi-tenant · Access Control · In progress</p>
+            <h3>School Management System</h3>
+            <p>A multi-tenant platform for Ghanaian schools covering students, attendance, scores, report cards, and fees. Each school's data is isolated with PostgreSQL row-level security and an 8-role permission model, backed by tenant-isolation tests for every endpoint.</p>
+            <ul class="mini-tags"><li>TypeScript</li><li>NestJS</li><li>PostgreSQL</li><li>Drizzle</li></ul>
+          </article>
+          <article class="card">
+            <p class="tag-line">AI Safety · Python CLI · In progress</p>
+            <h3>Decision Gate</h3>
+            <p>A decision layer that AI agents call before expensive or risky actions. It returns proceed, skip, downgrade, or ask a human, and irreversible actions like deleting data or making payments always require human approval.</p>
+            <ul class="mini-tags"><li>Python</li><li>pytest</li><li>GitHub Actions</li></ul>
+          </article>
+          <article class="card">
+            <p class="tag-line">Secure Web App</p>
+            <h3>Asthma &amp; Respiratory Health Tracker</h3>
+            <p>Combines location, weather, AQI, and pollen APIs to surface respiratory-risk alerts, organized with a secure model-controller design.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PRACTICE ========== -->
+    <section class="section" id="practice">
+      <div class="container">
+        <p class="label">Practice</p>
+        <h2 class="section-title">CTF &amp; Hands-on Labs</h2>
+        <ul class="platforms">
+          <li><span class="pf-abbr">MC</span><span><strong>MetaCTF</strong><small>CTF competitions</small></span></li>
+          <li><span class="pf-abbr">THM</span><span><strong>TryHackMe</strong><small>Guided labs</small></span></li>
+          <li><span class="pf-abbr">HTB</span><span><strong>Hack The Box</strong><small>Labs &amp; challenges</small></span></li>
+          <li><span class="pf-abbr">NCL</span><span><strong>Cyber Skyline</strong><small>National Cyber League</small></span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="section section-alt" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="label">Contact</p>
+          <h2 class="contact-title">Let's<br>Connect</h2>
+        </div>
+        <ul class="contact-list">
+          <li>
+            <a href="mailto:mawusifoliba@outlook.com">
+              <span class="ci" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 5h18v14H3z M3 6l9 7 9-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span>
+              <span><small>Email</small>mawusifoliba@outlook.com</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/mawusi-f-347a2b225/" target="_blank" rel="noopener noreferrer">
+              <span class="ci" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 9h3.5v11H4zM5.75 3.5a2 2 0 1 1 0 4 2 2 0 0 1 0-4zM10 9h3.3v1.6c.5-.9 1.7-1.9 3.5-1.9 3.6 0 4.2 2.3 4.2 5.4V20h-3.5v-5.2c0-1.3 0-2.9-1.8-2.9s-2.1 1.4-2.1 2.8V20H10z" fill="currentColor"/></svg></span>
+              <span><small>LinkedIn</small>in/mawusi-f-347a2b225</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/mawusi-si" target="_blank" rel="noopener noreferrer">
+              <span class="ci" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.8 1a9.6 9.6 0 0 1 5 0c1.9-1.3 2.8-1 2.8-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.9V21c0 .3.2.6.7.5A10 10 0 0 0 12 2z" fill="currentColor"/></svg></span>
+              <span><small>GitHub</small>github.com/mawusi-si</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>Mawusi Foliba</span>
+    <span class="muted">© <span id="year">2026</span></span>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
